@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('convertToRadians').addEventListener('click', function () {
         const degrees = parseFloat(document.getElementById('degreesInput').value);
         if (!isNaN(degrees)) {
-            const radians = (degrees * Math.PI) / 180;
+            const radians = degreesToRadians(degrees);
             document.getElementById('radiansOutput').textContent = radians.toFixed(4);
         } else {
             document.getElementById('radiansOutput').textContent = 'Invalid input';
