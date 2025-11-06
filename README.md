@@ -1,2 +1,2 @@
 # Rad-Deg-Converter
-starting concept for radians and degrees converter.
+Converter from degrees to radians and radians to degrees.
